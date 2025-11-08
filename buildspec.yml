@@ -7,11 +7,12 @@ phases:
     commands:
       - echo "Installing dependencies"
       - npm install
+
   build:
     commands:
       - echo "Build phase started"
-      - npm run start
+      - npm run build
 
 artifacts:
   files:
-    - "**/*"
+    - '**/*'
